@@ -1,0 +1,199 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+	margin-top: 20px;
+	padding-top: 20px;
+	border: solid darkblue;
+    border-radius: 10px;
+     text-align: center;
+    height: 80px;
+    color: #0066cc;
+}
+
+/* Button container styles */
+.button-container {
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Align items to the start of the container */
+    align-items: center; /* Align items vertically */
+    flex-wrap: nowrap; /* Prevent wrapping onto a new line */
+    border: solid darkblue;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.button-container button,
+.edit-button,
+.delete-button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button-container button {
+    background-color: lightcoral;
+    color: #fff;
+    margin-right: 100px; /* Add margin between buttons */
+}
+
+.button-container button:hover {
+    background-color: #003366;
+}
+
+.edit-button,
+.delete-button {
+    display: inline-block;
+    margin-left: 5px; /* Add margin between buttons */
+}
+
+.edit-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.edit-button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropbtn {
+    padding: 12px 15px;
+    font-size: 16px;
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: #003366;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+    border-radius: 5px; /* Added border radius */
+}
+
+.dropdown-content label,
+.dropdown-content select,
+.dropdown-content input,
+.dropdown-content button {
+    display: block;
+    width: 90%;
+    margin-left: 8px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dropdown-content button[type="submit"] {
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Table container styles */
+.table-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border: 3px solid #0066cc; 
+    border-radius: 10px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    color: #0066cc;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #f2f2f2;
+}
+
+.pagination .active {
+    background-color: #0066cc;
+    color: white;
+}
+
+.pagination .disabled {
+    color: #cccccc;
+}
+
+.pagination .prev-next {
+    display: inline-block;
+    margin: 0 5px;
+}
+

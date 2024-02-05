@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://t3.ftcdn.net/jpg/04/83/15/68/360_F_483156887_HPSuzZ45AAVd8yqQsjxfodAWUT7F9VOZ.jpg'); /* Update the path accordingly */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: blue;
+    margin-bottom: 20px; /* Adjust the margin to create space between h2 and button */
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}

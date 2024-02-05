@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 20px;
+    background-image: url('https://static9.depositphotos.com/1211400/1217/i/950/depositphotos_12179387-stock-photo-login-failed-background.jpg.jpg'); /* Add the path to your background image */
+    background-size: cover;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+h1 {
+    color: #ff0000; /* Red color for the header */
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #007bff; /* Blue color for the button */
+    color: #fff; /* White color for the text */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
